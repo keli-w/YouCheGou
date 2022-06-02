@@ -1,0 +1,11 @@
+{
+  "enableAppxNg": true,
+  "miniprogramRoot": "dist",
+  "enableNodeModuleBabelTransform": true,
+  "scripts": {
+    "beforeCompile": "tnpm run build",
+    "beforeUpload": "tnpm run build",
+    "beforePreview": "tnpm run build"
+  },
+  "exclude": ["node_modules/**", "src/**/*"]
+}
