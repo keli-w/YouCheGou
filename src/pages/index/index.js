@@ -1,3 +1,5 @@
+import { myAlert } from '@/common/jsapi';
+
 Page({
   data: {
     list: [
@@ -8,5 +10,9 @@ Page({
       { type: 'success' },
       { type: 'light' }
     ]
+  },
+
+  onClickButton: () => {
+    myAlert({ content: '111111' });
   }
 });

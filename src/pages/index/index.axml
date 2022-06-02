@@ -30,7 +30,7 @@
     </button>
   </demo-block>
   <demo-block title="含有副标题">
-    <view class="btn-list">
+    <view class="btn-list" onTap="onClickButton">
       <button subText="副标题" type="primary">
         按钮
       </button>
