@@ -1,8 +1,7 @@
 {
-  "pages": [
-    "pages/index/index"
-  ],
+  "pages": ["pages/index/index"],
   "window": {
-    "defaultTitle": "My App"
+    "defaultTitle": "优车购",
+    "allowsBounceVertical": "YES"
   }
 }

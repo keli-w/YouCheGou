@@ -1,0 +1,7 @@
+.demo {
+  padding: 24rpx;
+}
+
+.amd-button {
+  margin: 12rpx 0;
+}

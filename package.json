@@ -22,5 +22,8 @@
     "eslint-plugin-promise": "^6.0.0",
     "gulp": "^4.0.2",
     "husky": "^8.0.1"
+  },
+  "dependencies": {
+    "antd-mini": "^0.0.13"
   }
 }
