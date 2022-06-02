@@ -1,6 +1,6 @@
 {
   "enableAppxNg": true,
-  "miniprogramRoot": "src",
+  "miniprogramRoot": "dist",
   "enableNodeModuleBabelTransform": true,
   "exclude": ["node_modules/**", "src/**/*"]
 }
