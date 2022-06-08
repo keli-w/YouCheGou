@@ -6,11 +6,11 @@
   "author": "keLi",
   "license": "ISC",
   "scripts": {
-    "dev": "gulp && minidev dev -a 2021003131617003",
+    "dev": "minidev dev -a 2021003131617003",
     "lint": "eslint --ext .js src",
     "lint:fix": "eslint --fix --ext .js src",
     "prepare": "husky install",
-    "gulp": "gulp",
+    "watch": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {

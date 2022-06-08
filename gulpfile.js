@@ -50,4 +50,8 @@ function transpileJsImport(cb) {
     .on('end', cb);
 }
 
-exports.default = gulp.series(copyFiles, transpileStyles, transpileJsImport);
+function watch(cb) {
+  gulp.watch(SRC_DIR, gulp.series(copyFiles, transpileStyles, transpileJsImport));
+}
+
+exports.default = watch;
