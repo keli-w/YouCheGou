@@ -12,7 +12,8 @@ Page({
     ]
   },
 
-  onClickButton: () => {
-    myAlert({ content: '111111' });
+  onClickButton() {
+    const { list = [] } = this.data;
+    myAlert({ content: list[0].type });
   }
 });

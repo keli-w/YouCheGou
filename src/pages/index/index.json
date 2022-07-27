@@ -5,6 +5,6 @@
     "list": "antd-mini/es/List/index",
     "list-item": "antd-mini/es/List/ListItem/index",
     "switch": "antd-mini/es/Switch/index",
-    "demo-block": "/components/demo-block/index"
+    "demo-block": "../../components/demo-block/index"
   }
 }
